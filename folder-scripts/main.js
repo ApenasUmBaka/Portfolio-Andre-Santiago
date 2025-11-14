@@ -211,5 +211,5 @@ window.addEventListener("scroll", reveal);
 
 //footer credits
 document.getElementById('easterEgg').addEventListener('click', () => {
-  window.open("folder-files/Credits-EasterEgg.mp4", "_blank");
+  window.open("folder-files/credits-easteregg.mp4", "_blank");
 });
