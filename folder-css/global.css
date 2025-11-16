@@ -112,6 +112,11 @@ body{
 .modal.open{display:flex}
 .modal-inner{width:100%;max-width:1100px;background:#070707;padding:1.2rem;border-radius:10px;overflow:auto;max-height:90vh}
 
+.scripts-list p {
+  line-height: 1.4;
+}
+
+
 /* skills */
 .about-grid{display:grid;grid-template-columns:1fr 360px;gap:2rem;align-items:start}
 .skill-list{margin-top:1rem}
