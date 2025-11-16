@@ -255,12 +255,13 @@
 }
 
 /* Player Video */
-video {
+iframe {
   border: 1px solid var(--pink);
   border-radius: 12px;
   box-shadow: 0 0 24px rgba(255,0,150,0.25);
+
 }
-video:hover {
+iframe:hover {
   box-shadow: 0 0 40px rgba(255,0,150,0.4);
 }
 
@@ -274,7 +275,7 @@ video:hover {
   padding-top: 56.25%;
 }
 
-.video-wrapper video {
+.video-wrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -296,7 +297,7 @@ video:hover {
 }
 
 /* painel dos controles */
-video::-webkit-media-controls-panel {
+iframe::-webkit-media-controls-panel {
   background-color: rgba(0,0,0,0.35);
   backdrop-filter: blur(2px);
   padding: 12px;
