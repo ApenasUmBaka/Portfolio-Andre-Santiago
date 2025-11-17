@@ -208,5 +208,5 @@ window.addEventListener("scroll", reveal);
 
 //footer credits
 document.getElementById('easterEgg').addEventListener('click', () => {
-  window.open("https://vimeo.com/1137250774?share=copy&fl=sv&fe=ci", "_blank");
+  window.open("https://vimeo.com/1137250774?fl=ip&fe=ec", "_blank");
 });
