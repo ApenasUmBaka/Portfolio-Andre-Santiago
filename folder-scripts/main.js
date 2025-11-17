@@ -85,16 +85,16 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="modal-right">
           <h2 class="modal-title">${title}</h2>
           <p class="modal-role">${role}</p>
-          <p><strong>One-liner:</strong> ${oneliner}</p>
+          <p><strong>One-liner:</strong> ${oneliner}</p><br>
           <p><strong>O que eu fiz:</strong></p>
           <ul class="modal-list">
             <li>Direção</li>
             <li>Roteiro</li>
             <li>Pós-produção</li>
           </ul>
-          <p><strong>Ferramentas:</strong> ${tools}</p>
-          <p><strong>Resultado / Impacto:</strong> ${impact}</p>
-          <p><strong>Créditos:</strong> ${credits}</p>
+          <p><strong>Ferramentas:</strong> ${tools}</p><br>
+          <p><strong>Resultado / Impacto:</strong> ${impact}</p><br>
+          <p><strong>Créditos:</strong> ${credits}</p><br>
           ${ processURL ? `<p><a class="btn ghost" href="${processURL}" target="_blank">Ver processo completo →</a></p>` : `<p class="placeholder">Processo não disponível.</p>` }
           <div class="modal-actions" style="margin-top:14px;">
             <a class="btn" href="#">Ver projeto</a>

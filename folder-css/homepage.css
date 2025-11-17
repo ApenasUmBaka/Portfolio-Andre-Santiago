@@ -242,7 +242,7 @@
 .modal-list { margin:8px 0 10px 0; padding-left:18px; }
 .modal-gallery { display:flex; gap:8px; margin-top:10px; flex-wrap:wrap; }
 .modal-gallery img { width:100px; height:66px; object-fit:cover; border-radius:6px; border:1px solid rgba(255,255,255,0.03); }
-.modal-gallery.placeholder { color:rgba(255,255,255,0.6); opacity:0.8; padding:12px; background:rgba(255,255,255,0.02); border-radius:8px; }
+.modal-gallery.placeholder { color:rgba(255,255,255,0.6); opacity:0.8; padding: 12px; background:rgba(255,255,255,0.02); border-radius:8px; }
 
 .modal-video { margin-top:12px; }
 
