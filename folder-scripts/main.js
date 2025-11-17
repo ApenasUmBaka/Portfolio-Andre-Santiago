@@ -51,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const tools = card.dataset.tools || 'Ferramentas não informadas';
     const impact = card.dataset.impact || 'Resultado em breve';
     const credits = card.dataset.credits || 'Créditos serão atualizados';
+    const desc = card.dataset.desc || 'Sem descrição'
     const processURL = card.dataset.processUrl || '';
     const gallery = card.dataset.gallery ? card.dataset.gallery.split(',') : [];
     const video = card.dataset.video || '';
@@ -60,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (gallery.length) {
       galleryHtml = '<div class="modal-gallery">';
       gallery.forEach(src => {
-        galleryHtml += `<img src="${src.trim()}" alt="${title}" />`;
+        galleryHtml += `<img loading="lazy" src="${src.trim()}" alt="${title}" />`;
       });
       galleryHtml += '</div>';
     } else {
@@ -86,12 +87,8 @@ document.addEventListener('DOMContentLoaded', function () {
           <h2 class="modal-title">${title}</h2>
           <p class="modal-role">${role}</p>
           <p><strong>One-liner:</strong> ${oneliner}</p><br>
-          <p><strong>O que eu fiz:</strong></p>
-          <ul class="modal-list">
-            <li>Direção</li>
-            <li>Roteiro</li>
-            <li>Pós-produção</li>
-          </ul>
+          <p><strong>Descrição:</strong></p>
+          <p> ${desc}</p>
           <p><strong>Ferramentas:</strong> ${tools}</p><br>
           <p><strong>Resultado / Impacto:</strong> ${impact}</p><br>
           <p><strong>Créditos:</strong> ${credits}</p><br>

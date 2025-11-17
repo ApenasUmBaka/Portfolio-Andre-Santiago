@@ -116,6 +116,9 @@ body{
   line-height: 1.4;
 }
 
+.about-text p {
+  line-height: 1.5;
+}
 
 /* skills */
 .about-grid{display:grid;grid-template-columns:1fr 360px;gap:2rem;align-items:start}
